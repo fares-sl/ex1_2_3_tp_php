@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f8f8f8;
+}
+
+.container {
+    margin-top: 20px;
+}
+
+.pokemon {
+    display: inline-block;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px gray;
+    background-color: white;
+}
+
+img {
+    width: 150px;
+    height: auto;
+}
+
+.log {
+    margin-top: 20px;
+    padding: 10px;
+    background: #fff;
+    border: 1px solid #ccc;
+    max-width: 600px;
+    margin: auto;
+}
+
+.winner {
+    font-size: 24px;
+    font-weight: bold;
+    color: green;
+    margin-top: 20px;
+}

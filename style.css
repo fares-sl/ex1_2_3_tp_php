@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items:  center;
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    
+}
+
+.note {
+    padding: 15px;
+    margin: 10px 0;
+    width: 80%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 7px;
+    font-weight: bold;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.red {
+    background-color: red;
+    color: white;
+}
+
+.green {
+    background-color: green;
+    color: white;
+}
+
+.orange {
+    background-color: orange;
+    color: black;
+}
+
+.blue {
+    background-color: lightblue;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    display: inline-block;
+}
+.blue {
+    background-color: lightblue;
+    color: black; /* Ensure text is readable */
+    padding: 15px;
+    margin-top: 10px;
+    border-radius: 5px;
+    display: flex; /* Use flexbox for consistent alignment */
+    justify-content: center;
+    align-items: center;
+}
+.student {
+    width: 100%; 
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+.notes-container {
+    display: flex; 
+    flex-wrap: wrap; 
+    gap: 10px;
+}
+
+.note {
+    display: inline-block;
+    text-align: center;
+}
